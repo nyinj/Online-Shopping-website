@@ -1,0 +1,327 @@
+/* Set the hero section height to full screen */
+.hero-section {
+  height: 100vh;
+  position: relative;
+}
+
+/* Background image for the hero section */
+.hero-image {
+  background-image: url('../images/shopping-in-bhutan-bannnr.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+/* Content in the center of the hero section */
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-family: Merriweather;
+}
+
+/* Add this class for maroon background */
+.bg-maroon {
+  background-color: maroon !important;
+}
+
+
+/* Navbar styles */
+.navbar {
+  background-color: transparent !important; /* Make navbar background transparent */
+}
+
+.navbar-toggler-icon {
+  color: black;
+}
+
+/* Navbar links styles */
+.navbar-nav .nav-link {
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  color: white !important; /* Change font color to white */
+}
+
+/* CSS for the logo text */
+.logo-text {
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px; /* Adjust font size as needed */
+  color: white;
+}
+@media (max-width: 768px) {
+  .logo-text {
+    display: none;
+  }
+}
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar-collapse {
+    background-color: rgba(0, 0, 0, 0.9); /* Semi-transparent background for the collapsed navbar */
+  }
+}
+
+/* Content in the center of the hero section */
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+/* Style for h1 */
+.hero-content h1 {
+  font-size: 3.6em; /* Adjust font size as needed */
+  font-weight: bold; /* Make font bold */
+  margin-bottom: 20px; /* Add space below h1 */
+}
+
+/* Style for p */
+.hero-content p {
+  margin-bottom: 50px ;
+  font-size: 1.2em; /* Adjust font size as needed */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2em; /* Adjust font size for smaller screens */
+  }
+  .hero-content p {
+    font-size: 1em; /* Adjust font size for smaller screens */
+  }
+}
+
+/* Categories */
+.category-section {
+  padding: 20px 0;
+}
+
+.category-title {
+  margin-bottom: 30px;
+  font-family: 'Merriweather', serif;
+}
+
+.category-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.category-nav li {
+  margin-right: 20px;
+}
+
+.category-nav li:last-child {
+  margin-right: 0;
+}
+
+.category-nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.category-nav a:hover {
+  color: #666;
+}
+
+/* New Arrivals */
+.section-title h2 {
+  font-family: 'Merriweather', serif;
+  margin-bottom: 40px;
+}
+
+.card-body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.card-link {
+  color: black;
+}
+
+.card-text.text-secondary {
+  color: #6c757d; /* Light grey color for "Made by" text */
+}
+
+/* Button */
+.btn-gray {
+  background-color: #6c757d; /* Gray background color */
+  color: #fff; /* White text color */
+}
+
+.btn-gray:hover {
+  background-color: #5a6268; /* Darker gray color on hover */
+  color: #fff; /* White text color on hover */
+}
+
+.zoom-effect {
+  transition: transform 0.3s ease; /* Add smooth transition */
+}
+
+.zoom-effect:hover {
+  transform: scale(1.05); /* Zoom in on hover */
+}
+
+/* Virtual tour */
+.art-img {
+  height: 100vh;
+  background-image: url('../images/art-image.jpeg'); /* Replace 'your-image.jpg' with your actual image path */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px; /* Add padding to the sides */
+}
+
+/* Text content styles */
+.text-content-art {
+  color: white;
+  max-width: 50%;
+}
+
+.text-content-art h1{
+  font-family: Merriweather;
+  font-size: 3em;
+}
+
+.text-content-art p{
+  font-size: 1.7em;
+  font-family: oswald;
+  
+}
+
+/* Button styles */
+.button-container {
+  display: flex;
+  justify-content: center; /* Center button horizontally */
+}
+
+.btn {
+  background-color: #111B26;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .art-img {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .text-content-art {
+    max-width: 90%; /* Adjust max-width for smaller screens */
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .art-img {
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+  .text-content-art {
+    max-width: 90%; /* Adjust max-width for smaller screens */
+  }
+  .text-content-art h1 {
+    font-size: 2.5em; /* Decrease font size for smaller screens */
+  }
+  .text-content-art p {
+    font-size: 1.5em; /* Decrease font size for smaller screens */
+  }
+  .btn {
+    font-size: 1.2em; /* Decrease font size for smaller screens */
+  }
+}
+
+
+/* History Section */
+h3 {
+  font-family: Merriweather;
+  font-size: 2em;
+
+}
+
+.pink-section {
+  background-color: pink;
+  height: auto; /* Adjusted height to auto for responsiveness */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px; /* Add margin between the sections */
+  height:80vh;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.text-container {
+  flex: 1;
+  padding: 20px;
+  text-align: center; /* Center text on smaller screens */
+}
+
+.image-container {
+  flex: 1;
+  text-align: center;
+  margin-top: 20px; /* Add some space between text and image */
+}
+
+.image-container img{
+  width: 200vh;
+}
+.btn-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn:Hover{
+  background-color: grey;
+  color: white;
+}
+
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .text-container {
+    padding: 10px; /* Reduce padding */
+  }
+
+  .image-container {
+    margin-top: 10px; /* Reduce margin */
+  }
+
+  .image-container img {
+    margin-top: 20px; /* Add margin between the image and the text */
+  }
+
+  .content {
+    flex-direction: column;
+  }
+  .pink-section{
+    height: 100vh;
+  }
+}
+
+
+

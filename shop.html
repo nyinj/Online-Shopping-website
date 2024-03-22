@@ -1,0 +1,1757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel='stylesheet' href='https://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link href="css/shop.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/footer.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <a class="navbar-brand" href="index.html">
+      <span class="logo-text">Bhutan Online Handicrafts</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="shop.html">Shop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cart.html">Cart</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="wishlist.html">Wishlist</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="account.html">Account</a>
+        </li>
+      </ul>
+    </div>
+</nav>
+
+<!-- Main page -->
+<div class="container bootdey">
+  <div class="col-md-3">
+      <section class="panel">
+          <div class="panel-body">
+              <input type="text" placeholder="Keyword Search" class="form-control" />
+          </div>
+      </section>
+      <section class="panel">
+          <header class="panel-heading">
+              Category
+          </header>
+          <div class="panel-body">
+              <select class="form-control">
+                  <option selected disabled>Select Category</option>
+                  <option>Textiles</option>
+                  <option>Art</option>
+                  <option>Ceremics</option>
+                  <option>Crafts</option>
+                  <option>Jewellery</option>
+              </select>
+          </div>
+      </section>
+  </div>
+  <div class="col-md-9">
+      <section class="panel">
+          <div class="panel-body">
+              <div class="pull-right">
+                  <ul class="pagination pagination-sm pro-page-list">
+                      <li><a href="#">1</a></li>
+                      <li><a href="#">2</a></li>
+                      <li><a href="#">3</a></li>
+                      <li><a href="#">»</a></li>
+                  </ul>
+              </div>
+          </div>
+      </section>
+
+      <div class="row product-list">
+        <div class="col-md-4">
+            <section class="panel" data-toggle="modal" data-target="#productModal1">
+                <div class="pro-img-box">
+                    <img src="images/items/product-1.jpg" alt="" />
+                </div>
+    
+                <div class="panel-body text-center">
+                    <h4>
+                        <a href="#" class="pro-title">
+                            Yathra Handstitch Backpack in White
+                        </a>
+                    </h4>
+                    <p class="price">Nu. 1699</p>
+                </div>
+            </section>
+        </div>
+        <div class="col-md-4">
+          <section class="panel" data-toggle="modal" data-target="#productModal2">
+              <div class="pro-img-box">
+                  <img src="images/items/product-2.png" alt="" />
+              </div>
+  
+              <div class="panel-body text-center">
+                  <h4>
+                      <a href="#" class="pro-title">
+                          Bamboo Hand Woven Bedside Lamp
+                      </a>
+                  </h4>
+                  <p class="price">Nu. 699</p>
+              </div>
+          </section>
+      </div>
+      <div class="col-md-4">
+        <section class="panel" data-toggle="modal" data-target="#productModal3">
+            <div class="pro-img-box">
+                <img src="images/items/product-3.jpg" alt="" />
+            </div>
+
+            <div class="panel-body text-center">
+                <h4>
+                    <a href="#" class="pro-title">
+                        Taktsang printed Cushion in Black
+                    </a>
+                </h4>
+                <p class="price">Nu. 799</p>
+            </div>
+        </section>
+    </div>
+    <div class="col-md-4">
+      <section class="panel" data-toggle="modal" data-target="#productModal4">
+        <div class="pro-img-box">
+          <img src="images/items/product-4.jpg" alt="" />
+      </div>
+
+          <div class="panel-body text-center">
+              <h4>
+                  <a href="#" class="pro-title">
+                      Handstich White Robe
+                  </a>
+              </h4>
+              <p class="price">Nu. 699</p>
+          </div>
+      </section>
+  </div>
+  <div class="col-md-4">
+    <section class="panel" data-toggle="modal" data-target="#productModal5">
+        <div class="pro-img-box">
+            <img src="images/items/product-5.jpg" alt="" />
+        </div>
+
+        <div class="panel-body text-center">
+            <h4>
+                <a href="#" class="pro-title">
+                    Bhutanese style House Slippers
+                </a>
+            </h4>
+            <p class="price">Nu. 499</p>
+        </div>
+    </section>
+</div>
+<div class="col-md-4">
+  <section class="panel" data-toggle="modal" data-target="#productModal6">
+      <div class="pro-img-box">
+          <img src="images/items/product-6.jpg" alt="" />
+      </div>
+
+      <div class="panel-body text-center">
+          <h4>
+              <a href="#" class="pro-title">
+                  Thin Tote Bag with textile pattern
+              </a>
+          </h4>
+          <p class="price">Nu.999</p>
+      </div>
+  </section>
+</div>
+<div class="col-md-4">
+  <section class="panel" data-toggle="modal" data-target="#productModal7">
+      <div class="pro-img-box">
+          <img src="images/items/product-7.jpg" alt="" />
+      </div>
+
+      <div class="panel-body text-center">
+          <h4>
+              <a href="#" class="pro-title">
+                  Butterfly Style Textile pattern Backpack
+              </a>
+          </h4>
+          <p class="price">Nu. 999</p>
+      </div>
+  </section>
+</div>
+<div class="col-md-4">
+  <section class="panel" data-toggle="modal" data-target="#productModal8">
+      <div class="pro-img-box">
+          <img src="images/items/product-8.jpg" alt="" />
+      </div>
+
+      <div class="panel-body text-center">
+          <h4>
+              <a href="#" class="pro-title">
+                  Bottle holder Textile patterned
+              </a>
+          </h4>
+          <p class="price">Nu. 495</p>
+        </div>
+  </section>
+</div>
+
+<div class="col-md-4">
+  <section class="panel" data-toggle="modal" data-target="#productModal9">
+      <div class="pro-img-box">
+          <img src="images/items/product-9.jpg" alt="" />
+      </div>
+
+      <div class="panel-body text-center">
+          <h4>
+              <a href="#" class="pro-title">
+                  Handstitched Bhutanese style Bottle Bag
+              </a>
+          </h4>
+          <p class="price">Nu. 500</p>
+        </div>
+  </section>
+</div>
+<div class="col-md-4">
+  <section class="panel" data-toggle="modal" data-target="#productModal9">
+      <div class="pro-img-box">
+          <img src="images/items/product-9.jpg" alt="" />
+      </div>
+
+      <div class="panel-body text-center">
+          <h4>
+              <a href="#" class="pro-title">
+                  Handstitched Bhutanese style Bottle Bag
+              </a>
+          </h4>
+          <p class="price">Nu. 500</p>
+        </div>
+  </section>
+</div>
+
+<div class="col-md-4">
+  <section class="panel" data-toggle="modal" data-target="#productModal10">
+      <div class="pro-img-box">
+          <img src="images/items/product-10.jpg" alt="" />
+      </div>
+
+      <div class="panel-body text-center">
+          <h4>
+              <a href="#" class="pro-title">
+                  Hand Woven Bread Basket
+              </a>
+          </h4>
+          <p class="price">Nu. 485</p>
+        </div>
+  </section>
+</div>
+
+<div class="col-md-4">
+  <section class="panel" data-toggle="modal" data-target="#productModal11">
+      <div class="pro-img-box">
+          <img src="images/items/product-11.jpg" alt="" />
+      </div>
+
+      <div class="panel-body text-center">
+          <h4>
+              <a href="#" class="pro-title">
+                  Textile Patterned Camera Bag
+              </a>
+          </h4>
+          <p class="price">Nu. 1299</p>
+        </div>
+  </section>
+</div>
+
+<div class="col-md-4">
+  <section class="panel" data-toggle="modal" data-target="#productModal12">
+      <div class="pro-img-box">
+          <img src="images/items/product-12.jpg" alt="" />
+      </div>
+
+      <div class="panel-body text-center">
+          <h4>
+              <a href="#" class="pro-title">
+                  Women's clutch color in white
+              </a>
+          </h4>
+          <p class="price">Nu. 599</p>
+        </div>
+  </section>
+</div>
+
+<div class="col-md-4">
+  <section class="panel" data-toggle="modal" data-target="#productModal13">
+      <div class="pro-img-box">
+          <img src="images/items/product-13.jpg" alt="" />
+      </div>
+
+      <div class="panel-body text-center">
+          <h4>
+              <a href="#" class="pro-title">
+                 Dining Table Coaster color Black
+              </a>
+          </h4>
+          <p class="price">Nu. 199</p>
+        </div>
+  </section>
+</div>
+
+<div class="col-md-4">
+  <section class="panel" data-toggle="modal" data-target="#productModal14">
+      <div class="pro-img-box">
+          <img src="images/items/product-14.jpg" alt="" />
+      </div>
+
+      <div class="panel-body text-center">
+          <h4>
+              <a href="#" class="pro-title">
+                  Handstitched Fish style crossbody bag
+              </a>
+          </h4>
+          <p class="price">Nu. 500</p>
+        </div>
+  </section>
+</div>
+
+<div class="col-md-4">
+  <section class="panel" data-toggle="modal" data-target="#productModal15">
+      <div class="pro-img-box">
+          <img src="images/items/product-15.jpg" alt="" />
+      </div>
+
+      <div class="panel-body text-center">
+          <h4>
+              <a href="#" class="pro-title">
+                  Bhutanese style printed Sofa cushion
+              </a>
+          </h4>
+          <p class="price">Nu. 679</p>
+        </div>
+  </section>
+</div>
+
+<div class="col-md-4">
+  <section class="panel" data-toggle="modal" data-target="#productModal16">
+      <div class="pro-img-box">
+          <img src="images/items/product-16.jpg" alt="" />
+      </div>
+
+      <div class="panel-body text-center">
+          <h4>
+              <a href="#" class="pro-title">
+                  Wooden Red Dapa  
+              </a>
+          </h4>
+          <p class="price">Nu. 499</p>
+        </div>
+  </section>
+</div>
+
+<div class="col-md-4">
+  <section class="panel" data-toggle="modal" data-target="#productModal17">
+      <div class="pro-img-box">
+          <img src="images/items/product-17.jpg" alt="" />
+      </div>
+
+      <div class="panel-body text-center">
+          <h4>
+              <a href="#" class="pro-title">
+                  Bamboo Handmade Basket
+              </a>
+          </h4>
+          <p class="price">Nu. 500</p>
+        </div>
+  </section>
+</div>
+
+<div class="col-md-4">
+  <section class="panel" data-toggle="modal" data-target="#productModal18">
+      <div class="pro-img-box">
+          <img src="images/items/product-18.jpg" alt="" />
+      </div>
+
+      <div class="panel-body text-center">
+          <h4>
+              <a href="#" class="pro-title">
+                 Handstiched Shoulder Bag
+              </a>
+          </h4>
+          <p class="price">Nu. 700</p>
+        </div>
+  </section>
+</div>
+
+<div class="col-md-4">
+  <section class="panel" data-toggle="modal" data-target="#productModal19">
+      <div class="pro-img-box">
+          <img src="images/items/product-19.jpg" alt="" />
+      </div>
+
+      <div class="panel-body text-center">
+          <h4>
+              <a href="#" class="pro-title">
+                  Wall decor Theunpa Peun Zhi
+              </a>
+          </h4>
+          <p class="price">Nu. 799</p>
+        </div>
+  </section>
+</div>
+
+<div class="col-md-4">
+  <section class="panel" data-toggle="modal" data-target="#productModal20">
+      <div class="pro-img-box">
+          <img src="images/items/product-20.jpg" alt="" />
+      </div>
+
+      <div class="panel-body text-center">
+          <h4>
+              <a href="#" class="pro-title">
+                 Wall Decor Woodcrafted Sernya
+              </a>
+          </h4>
+          <p class="price">Nu. 899</p>
+        </div>
+  </section>
+</div>
+
+<div class="col-md-4">
+  <section class="panel" data-toggle="modal" data-target="#productModal21">
+      <div class="pro-img-box">
+          <img src="images/items/product-21.jpg" alt="" />
+      </div>
+
+      <div class="panel-body text-center">
+          <h4>
+              <a href="#" class="pro-title">
+                  Handstiched Makeup bag
+              </a>
+          </h4>
+          <p class="price">Nu. 500</p>
+        </div>
+  </section>
+</div>
+
+<div class="col-md-4">
+  <section class="panel" data-toggle="modal" data-target="#productModal22">
+      <div class="pro-img-box">
+          <img src="images/items/product-22.jpg" alt="" />
+      </div>
+
+      <div class="panel-body text-center">
+          <h4>
+              <a href="#" class="pro-title">
+                  Room Decor Woodcraft
+              </a>
+          </h4>
+          <p class="price">Nu.600</p>
+        </div>
+  </section>
+</div>
+
+<div class="col-md-4">
+  <section class="panel" data-toggle="modal" data-target="#productModal25">
+      <div class="pro-img-box">
+          <img src="images/items/product-25.jpg" alt="" />
+      </div>
+
+      <div class="panel-body text-center">
+          <h4>
+              <a href="#" class="pro-title">
+                  Handmade Pencil Bag
+              </a>
+          </h4>
+          <p class="price">Nu. 499</p>
+        </div>
+  </section>
+</div>
+
+<div class="col-md-4">
+  <section class="panel" data-toggle="modal" data-target="#productModal26">
+      <div class="pro-img-box">
+          <img src="images/items/product-26.jpg" alt="" />
+      </div>
+
+      <div class="panel-body text-center">
+          <h4>
+              <a href="#" class="pro-title">
+                  Wood Polished Wine Cup
+              </a>
+          </h4>
+          <p class="price">Nu. 299</p>
+        </div>
+  </section>
+</div>
+
+<div class="col-md-4">
+  <section class="panel" data-toggle="modal" data-target="#productModal27">
+      <div class="pro-img-box">
+          <img src="images/items/product-27.webp" alt="" />
+      </div>
+
+      <div class="panel-body text-center">
+          <h4>
+              <a href="#" class="pro-title">
+                  Hand Woven Purple Full Kira 3m
+              </a>
+          </h4>
+          <p class="price">Nu. 1999 </p>
+        </div>
+  </section>
+</div>
+
+<div class="col-md-4">
+  <section class="panel" data-toggle="modal" data-target="#productModal28">
+      <div class="pro-img-box">
+          <img src="images/items/product-28.webp" alt="" />
+      </div>
+
+      <div class="panel-body text-center">
+          <h4>
+              <a href="#" class="pro-title">
+                  Bhutanese Embriodery hand knitted Scarf
+              </a>
+          </h4>
+          <p class="price">Nu. 799</p>
+        </div>
+  </section>
+</div>
+
+<div class="col-md-4">
+  <section class="panel" data-toggle="modal" data-target="#productModal31">
+      <div class="pro-img-box">
+          <img src="images/items/product-31.webp" alt="" />
+      </div>
+
+      <div class="panel-body text-center">
+          <h4>
+              <a href="#" class="pro-title">
+                  Hand Woven Full Kira 3m
+              </a>
+          </h4>
+          <p class="price">Nu. 1299</p>
+        </div>
+  </section>
+</div>
+
+<div class="col-md-4">
+  <section class="panel" data-toggle="modal" data-target="#productModal32">
+      <div class="pro-img-box">
+          <img src="images/items/product-32.webp" alt="" />
+      </div>
+
+      <div class="panel-body text-center">
+          <h4>
+              <a href="#" class="pro-title">
+                Hand Woven Full Meto Kira 4m
+              </a>
+          </h4>
+          <p class="price">Nu. 5999</p>
+        </div>
+  </section>
+</div>
+
+<div class="col-md-4">
+  <section class="panel" data-toggle="modal" data-target="#productModal33">
+      <div class="pro-img-box">
+          <img src="images/items/product-33.webp" alt="" />
+      </div>
+
+      <div class="panel-body text-center">
+          <h4>
+              <a href="#" class="pro-title">
+                  Bhutanese Style Woolen Overcoat
+              </a>
+          </h4>
+          <p class="price">Nu. 749</p>
+        </div>
+  </section>
+</div>
+
+<div class="col-md-4">
+  <section class="panel" data-toggle="modal" data-target="#productModal36">
+      <div class="pro-img-box">
+          <img src="images/items/product-36.webp" alt="" />
+      </div>
+
+      <div class="panel-body text-center">
+          <h4>
+              <a href="#" class="pro-title">
+                  Bhutan National Flower Art
+              </a>
+          </h4>
+          <p class="price">Nu. 1000</p>
+        </div>
+  </section>
+</div>
+
+<div class="col-md-4">
+  <section class="panel" data-toggle="modal" data-target="#productModal37">
+      <div class="pro-img-box">
+          <img src="images/items/product-37.webp" alt="" />
+      </div>
+
+      <div class="panel-body text-center">
+          <h4>
+              <a href="#" class="pro-title">
+                  Canvas painting Bhutanese style
+              </a>
+          </h4>
+          <p class="price">Nu. 5699</p>
+        </div>
+  </section>
+</div>
+
+<div class="col-md-4">
+  <section class="panel" data-toggle="modal" data-target="#productModal38">
+      <div class="pro-img-box">
+          <img src="images/items/product-38.webp" alt="" />
+      </div>
+
+      <div class="panel-body text-center">
+          <h4>
+              <a href="#" class="pro-title">
+                  Bhutanese Thangka 
+              </a>
+          </h4>
+          <p class="price">Nu. 1299</p>
+        </div>
+  </section>
+</div>
+
+
+</div>
+
+<!-- Product Details Modal 1-->
+<div class="modal fade" id="productModal1" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Product Image -->
+            <img src="images/items/product-1.jpg" alt="Product Image" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <!-- Product Details -->
+            <h2>Yathra Handstitch Backpack in White</h2>
+            <p class="price">Nu.1699</p>
+            <p>Size: 50cmx70cm.</p>
+            <p>Color: White
+            </p>
+            <!-- Buttons -->
+            <div class="text-center">
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-outline-secondary">Add to Wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Details Modal 2-->
+<div class="modal fade" id="productModal2" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Product Image -->
+            <img src="images/items/product-2.png" alt="Product Image" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <!-- Product Details -->
+            <h2>Bamboo Hand Woven Bedside Lamp</h2>
+            <p class="price">Nu. 699</p>
+            <p>Height: 50cm</p>
+            <!-- Buttons -->
+            <div class="text-center">
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-outline-secondary">Add to Wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Details Modal 3-->
+<div class="modal fade" id="productModal3" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Product Image -->
+            <img src="images/items/product-3.jpg" alt="Product Image" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <!-- Product Details -->
+            <h2>Taktsang printed Cushion in Black</h2>
+            <p class="price">Nu.799</p>
+            <p>Size:40cmX40cm</p>
+            <!-- Buttons -->
+            <div class="text-center">
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-outline-secondary">Add to Wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Details Modal 4-->
+<div class="modal fade" id="productModal4" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Product Image -->
+            <img src="images/items/product-4.jpg" alt="Product Image" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <!-- Product Details -->
+            <h2>Handstiched White Robe</h2>
+            <p class="price">Nu. 699</p>
+            <p>Color: White</p>
+            <p>Size: L</p>
+            <!-- Buttons -->
+            <div class="text-center">
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-outline-secondary">Add to Wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Details Modal 5-->
+<div class="modal fade" id="productModal5" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Product Image -->
+            <img src="images/items/product-5.jpg" alt="Product Image" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <!-- Product Details -->
+            <h2>Bhutanese style House Slippers</h2>
+            <p class="price">Nu. 499</p>
+            <p>Size:38</p>
+            <!-- Buttons -->
+            <div class="text-center">
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-outline-secondary">Add to Wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Details Modal 6-->
+<div class="modal fade" id="productModal6" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Product Image -->
+            <img src="images/items/product-6.jpg" alt="Product Image" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <!-- Product Details -->
+            <h2>Tote Bag with textile Pattern</h2>
+            <p class="price">Nu.999</p>
+            <p>Size: 40cmx60cm</p>
+            <!-- Buttons -->
+            <div class="text-center">
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-outline-secondary">Add to Wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Details Modal 7-->
+<div class="modal fade" id="productModal7" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Product Image -->
+            <img src="images/items/product-7.jpg" alt="Product Image" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <!-- Product Details -->
+            <h2>Butterfly Style Textile pattern Backpack</h2>
+            <p class="price">Nu. 999</p>
+            <p>Size: 50cm x 50cm</p>
+            <!-- Buttons -->
+            <div class="text-center">
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-outline-secondary">Add to Wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Details Modal 8-->
+<div class="modal fade" id="productModal8" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Product Image -->
+            <img src="images/items/product-8.jpg" alt="Product Image" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <!-- Product Details -->
+            <h2>Bottle holder Textile pattern</h2>
+            <p class="price">Nu. 495</p>
+            <p>Size: 2L Bottles
+            </p>
+            <!-- Buttons -->
+            <div class="text-center">
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-outline-secondary">Add to Wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Details Modal 9-->
+<div class="modal fade" id="productModal9" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Product Image -->
+            <img src="images/items/product-9.jpg" alt="Product Image" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <!-- Product Details -->
+            <h2>Handstitched Bhutanese style Bottle Bag</h2>
+            <p class="price">Nu. 500</p>
+            <p>Size: 2L Bottle
+            </p>
+            <!-- Buttons -->
+            <div class="text-center">
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-outline-secondary">Add to Wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Details Modal 10-->
+<div class="modal fade" id="productModal10" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Product Image -->
+            <img src="images/items/product-10.jpg" alt="Product Image" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <!-- Product Details -->
+            <h2>Handwoven Bread Basket</h2>
+            <p class="price">Nu. 485</p>
+            <p>Color: Brown
+            </p>
+            <!-- Buttons -->
+            <div class="text-center">
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-outline-secondary">Add to Wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Details Modal 11-->
+<div class="modal fade" id="productModal11" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Product Image -->
+            <img src="images/items/product-11.jpg" alt="Product Image" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <!-- Product Details -->
+            <h2>Camera Bag Textile material</h2>
+            <p class="price">Nu. 1299</p>
+            <p>DSLR Camera
+            </p>
+            <!-- Buttons -->
+            <div class="text-center">
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-outline-secondary">Add to Wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Details Modal 13-->
+<div class="modal fade" id="productModal12" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Product Image -->
+            <img src="images/items/product-12.jpg" alt="Product Image" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <!-- Product Details -->
+            <h2>Women's Clutch Color in White</h2>
+            <p class="price">Nu. 599</p>
+            <p>Size: 20cmx18cm
+            </p>
+            <!-- Buttons -->
+            <div class="text-center">
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-outline-secondary">Add to Wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Details Modal 13-->
+<div class="modal fade" id="productModal13" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Product Image -->
+            <img src="images/items/product-13.jpg" alt="Product Image" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <!-- Product Details -->
+            <h2>Dining Table Coaster color Black</h2>
+            <p class="price">Nu. 199</p>
+            <p>Color: Black
+            </p>
+            <!-- Buttons -->
+            <div class="text-center">
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-outline-secondary">Add to Wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Details Modal 14-->
+<div class="modal fade" id="productModal14" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Product Image -->
+            <img src="images/items/product-14.jpg" alt="Product Image" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <!-- Product Details -->
+            <h2>Handstiched Fish Style crossbody bag</h2>
+            <p class="price">Nu. 500</p>
+            <p>Size: 20cmx20cm
+            </p>
+            <!-- Buttons -->
+            <div class="text-center">
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-outline-secondary">Add to Wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Details Modal 15-->
+<div class="modal fade" id="productModal15" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Product Image -->
+            <img src="images/items/product-15.jpg" alt="Product Image" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <!-- Product Details -->
+            <h2>Bhutanese style printed Sofa Cushion</h2>
+            <p class="price">Nu. 679</p>
+            <p>Size: 40cmx15cm
+            </p>
+            <!-- Buttons -->
+            <div class="text-center">
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-outline-secondary">Add to Wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Details Modal 16-->
+<div class="modal fade" id="productModal16" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Product Image -->
+            <img src="images/items/product-16.jpg" alt="Product Image" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <!-- Product Details -->
+            <h2>Wooden red Dappa</h2>
+            <p class="price">Nu. 499</p>
+            <p>Size: 30cm r
+            </p>
+            <!-- Buttons -->
+            <div class="text-center">
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-outline-secondary">Add to Wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Details Modal 17-->
+<div class="modal fade" id="productModal17" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Product Image -->
+            <img src="images/items/product-17.jpg" alt="Product Image" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <!-- Product Details -->
+            <h2>Bamboo Handmade Basket</h2>
+            <p class="price">Nu. 500</p>
+            <p>Height: 30cm
+            </p>
+            <!-- Buttons -->
+            <div class="text-center">
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-outline-secondary">Add to Wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Details Modal 18-->
+<div class="modal fade" id="productModal18" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Product Image -->
+            <img src="images/items/product-18.jpg" alt="Product Image" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <!-- Product Details -->
+            <h2>Handstitched shoulder Bag</h2>
+            <p class="price">Nu. 700</p>
+            <p>Size: 40cm x 10cm
+            </p>
+            <!-- Buttons -->
+            <div class="text-center">
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-outline-secondary">Add to Wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Details Modal 19-->
+<div class="modal fade" id="productModal19" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Product Image -->
+            <img src="images/items/product-19.jpg" alt="Product Image" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <!-- Product Details -->
+            <h2>Wall Decor Theunpa Peun Zhi</h2>
+            <p class="price">Nu. 799</p>
+            <p>Size: 30cmx30cm
+            </p>
+            <!-- Buttons -->
+            <div class="text-center">
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-outline-secondary">Add to Wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Details Modal 20-->
+<div class="modal fade" id="productModal20" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Product Image -->
+            <img src="images/items/product-20.jpg" alt="Product Image" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <!-- Product Details -->
+            <h2>Wall Decor Woodcrafted Sernya</h2>
+            <p class="price">Nu. 899</p>
+            <p>size: 20cm x 20cm
+            </p>
+            <!-- Buttons -->
+            <div class="text-center">
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-outline-secondary">Add to Wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Details Modal 21-->
+<div class="modal fade" id="productModal21" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Product Image -->
+            <img src="images/items/product-21.jpg" alt="Product Image" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <!-- Product Details -->
+            <h2>Handstitched Makeup Bag</h2>
+            <p class="price">Nu. 500</p>
+            <p>Size: 30cmx20cmx10cm
+            </p>
+            <!-- Buttons -->
+            <div class="text-center">
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-outline-secondary">Add to Wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Details Modal 22-->
+<div class="modal fade" id="productModal22" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Product Image -->
+            <img src="images/items/product-22.jpg" alt="Product Image" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <!-- Product Details -->
+            <h2>Room Decor Woodcraft Mask</h2>
+            <p class="price">Nu. 600</p>
+            <p> Mask size: 20cmx20cm
+            </p>
+            <!-- Buttons -->
+            <div class="text-center">
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-outline-secondary">Add to Wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Details Modal 25-->
+<div class="modal fade" id="productModal25" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Product Image -->
+            <img src="images/items/product-25.jpg" alt="Product Image" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <!-- Product Details -->
+            <h2>Wood Polished Wine Cup</h2>
+            <p class="price">Nu. 299</p>
+            <p>Height: 17cm
+            </p>
+            <!-- Buttons -->
+            <div class="text-center">
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-outline-secondary">Add to Wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Details Modal 27-->
+<div class="modal fade" id="productModal27" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Product Image -->
+            <img src="images/items/product-27.webp" alt="Product Image" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <!-- Product Details -->
+            <h2>Hand Woven Purple Full Kira 3m</h2>
+            <p class="price">Nu. 1999</p>
+            <p>Color: Purple <br> Length: 3m</p>
+            </p>
+            <!-- Buttons -->
+            <div class="text-center">
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-outline-secondary">Add to Wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Details Modal 28-->
+<div class="modal fade" id="productModal28" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Product Image -->
+            <img src="images/items/product-28.webp" alt="Product Image" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <!-- Product Details -->
+            <h2>Bhutanese Embriodery Hand Knitted Scarf</h2>
+            <p class="price">Nu. 799</p>
+            <p>Color: Purple<br> Length: 2m
+            </p>
+            <!-- Buttons -->
+            <div class="text-center">
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-outline-secondary">Add to Wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Details Modal 31-->
+<div class="modal fade" id="productModal31" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Product Image -->
+            <img src="images/items/product-31.webp" alt="Product Image" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <!-- Product Details -->
+            <h2>Hand Woven Full Kira</h2>
+            <p class="price">Nu. 1299</p>
+            <p>Color: Brown <br> Length:3m
+            </p>
+            <!-- Buttons -->
+            <div class="text-center">
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-outline-secondary">Add to Wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Details Modal 32-->
+<div class="modal fade" id="productModal32" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Product Image -->
+            <img src="images/items/product-32.webp" alt="Product Image" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <!-- Product Details -->
+            <h2>Hand Woven Full Meto Kira </h2>
+            <p class="price">Nu. 5999</p>
+            <p>Length: 4m
+            </p>
+            <!-- Buttons -->
+            <div class="text-center">
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-outline-secondary">Add to Wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Details Modal 33-->
+<div class="modal fade" id="productModal33" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Product Image -->
+            <img src="images/items/product-33.webp" alt="Product Image" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <!-- Product Details -->
+            <h2>BHutanese Style Woolen Overcoat</h2>
+            <p class="price">Nu. 1749</p>
+            <p>Size: XL
+            </p>
+            <!-- Buttons -->
+            <div class="text-center">
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-outline-secondary">Add to Wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Details Modal 36-->
+<div class="modal fade" id="productModal36" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Product Image -->
+            <img src="images/items/product-36.webp" alt="Product Image" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <!-- Product Details -->
+            <h2>Bhutan National Flower Art</h2>
+            <p class="price">Nu. 1000</p>
+            <p>Size: 30cmx50cm
+            </p>
+            <!-- Buttons -->
+            <div class="text-center">
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-outline-secondary">Add to Wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Details Modal 37-->
+<div class="modal fade" id="productModal37" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Product Image -->
+            <img src="images/items/product-37.webp" alt="Product Image" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <!-- Product Details -->
+            <h2>Canvas Painting Bhutanese Dragons With Canvas Stand</h2>
+            <p class="price">Nu. 5699</p>
+            <p>Size:100cmx150cm
+            </p>
+            <!-- Buttons -->
+            <div class="text-center">
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-outline-secondary">Add to Wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Details Modal 38-->
+<div class="modal fade" id="productModal38" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Product Image -->
+            <img src="images/items/product-38.webp" alt="Product Image" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <!-- Product Details -->
+            <h2>Bhutanese Wall Hanging Tapestry Thangka</h2>
+            <p class="price">Nu. 1299</p>
+            <p>Height: 120cm
+            </p>
+            <!-- Buttons -->
+            <div class="text-center">
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-outline-secondary">Add to Wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+</body>
+
+<!-- Footer -->
+<footer class="footer_area section_padding_130_0">
+  <div class="container">
+    <div class="row">
+      <!-- Single Widget-->
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="single-footer-widget section_padding_0_130">
+          <!-- Footer Logo-->
+          <div class="footer-logo mb-3"></div>
+          <p>Bhutan Handicraft Association (Bhutan Online Handicrafts)</p>
+          <!-- Copywrite Text-->
+          <div class="copywrite-text mb-5">
+            <p class="mb-0">Made by 02220158</a></p>
+          </div>
+          <!-- Footer Social Area-->
+          <div class="footer_social_area"><a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook"><i class="fa fa-facebook"></i></a><a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Pinterest"><i class="fa fa-pinterest"></i></a><a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Skype"><i class="fa fa-skype"></i></a><a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter"><i class="fa fa-twitter"></i></a></div>
+        </div>
+      </div>
+      <!-- Single Widget-->
+      <div class="col-12 col-sm-6 col-lg">
+        <div class="single-footer-widget section_padding_0_130">
+          <!-- Widget Title-->
+          <h5 class="widget-title">About</h5>
+          <!-- Footer Menu-->
+          <div class="footer_menu">
+            <ul>
+              <li><a href="#">Top</a></li>
+              <li><a href="#">Sell Items</a></li>
+              <li><a href="#">Terms &amp; Policy</a></li>
+              <li><a href="#">Community</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Single Widget-->
+      <div class="col-12 col-sm-6 col-lg">
+        <div class="single-footer-widget section_padding_0_130">
+          <!-- Widget Title-->
+          <h5 class="widget-title">Support</h5>
+          <!-- Footer Menu-->
+          <div class="footer_menu">
+            <ul>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Term &amp; Conditions</a></li>
+              <li><a href="#">Help &amp; Support</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Single Widget-->
+      <div class="col-12 col-sm-6 col-lg">
+        <div class="single-footer-widget section_padding_0_130">
+          <!-- Widget Title-->
+          <h5 class="widget-title">Contact</h5>
+          <!-- Footer Menu-->
+          <div class="footer_menu">
+            <ul>
+              <li><a href="#">Call Centre</a></li>
+              <li><a href="#">Email Us</a></li>
+              <li><a href="#">Term &amp; Conditions</a></li>
+              <li><a href="#">Help Center</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</html>
